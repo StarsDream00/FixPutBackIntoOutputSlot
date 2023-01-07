@@ -3,7 +3,6 @@
  * @note DO NOT modify or remove this file!
  */
 
-#include <llapi/LoggerAPI.h>
 #include <llapi/LLAPI.h>
 
 #include "version.hpp"
@@ -12,8 +11,6 @@
 #pragma comment(lib, "../SDK/lib/bedrock_server_var.lib")
 #pragma comment(lib, "../SDK/lib/SymDBHelper.lib")
 #pragma comment(lib, "../SDK/lib/LiteLoader.lib")
-
-Logger logger(PLUGIN_NAME);
 
 BOOL APIENTRY DllMain(HMODULE hModule,
                       DWORD ul_reason_for_call,
